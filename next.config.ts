@@ -3,7 +3,6 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   // Set asset prefix without condition
   // assetPrefix: "https://www.cybershastra.io",
-  output: "export",
   images: {
     remotePatterns: [
       {
