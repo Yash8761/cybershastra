@@ -8,18 +8,18 @@ export const emailServices = [
     fieldname: "email",
     endpoint: "/email_osint",
     thumbnail:
-      "https://cybershastra-assets.s3.ap-south-1.amazonaws.com/Breach+Data.png",
+      "https://storagevcl.blob.core.windows.net/images/Breach%20Data.png",
   },
   // {
   //   id: "breach_lookup",
   //   title: "Data Breach Lookup",
   //   subtitle: "Email Address",
-  //   desc: "This will help you to identify any possible data leaks of the provided email address from a repository of 1000+ data leaks and their databases. It can help to create a strong identity profile of the user",
+  //   desc: "This will help you to identify any possible data leaks of the provided email address from a repository of 1000%20 data leaks and their databases. It can help to create a strong identity profile of the user",
   //   credits: 0,
   //   fieldname: "email",
   //   endpoint: "/breach_lookup_by_email",
   //   thumbnail:
-  //     "https://cybershastra-assets.s3.ap-south-1.amazonaws.com/Breach+Data.png",
+  //     "https://storagevcl.blob.core.windows.net/images/Breach%20Data.png",
   // },
 ];
 
@@ -33,7 +33,7 @@ export const phoneServices = [
     fieldname: "mobileNumber",
     endpoint: "/mobile_osint",
     thumbnail:
-      "https://cybershastra-assets.s3.ap-south-1.amazonaws.com/cybershastra+images.png",
+      "https://storagevcl.blob.core.windows.net/images/cybershastra%20images.png",
   },
   {
     id: "teleco_lookup",
@@ -44,7 +44,7 @@ export const phoneServices = [
     fieldname: "mobileNumber",
     endpoint: "/teleco_lookup",
     thumbnail:
-      "https://cybershastra-assets.s3.ap-south-1.amazonaws.com/Operator+Details.png",
+      "https://storagevcl.blob.core.windows.net/images/Operator%20Details.png",
   },
   {
     id: "mobile_upi",
@@ -55,18 +55,18 @@ export const phoneServices = [
     fieldname: "mobileNumber",
     endpoint: "/mobile_upi",
     thumbnail:
-      "https://cybershastra-assets.s3.ap-south-1.amazonaws.com/UPI_VPA+Accounts.png",
+      "https://storagevcl.blob.core.windows.net/images/UPI_VPA%20Accounts.png",
   },
   {
     id: "breach_lookup",
     title: "Breach Lookup",
     subtitle: "Phone Number",
-    desc: "This will help you to identify any possible data leaks of the provided mobile number from a repository of 1000+ data leaks and their databases. It can help to create a strong identity profile of the user.",
+    desc: "This will help you to identify any possible data leaks of the provided mobile number from a repository of 1000%20 data leaks and their databases. It can help to create a strong identity profile of the user.",
     credits: 2,
     fieldname: "mobileNumber",
     endpoint: "/breach_lookup",
     thumbnail:
-      "https://cybershastra-assets.s3.ap-south-1.amazonaws.com/Breach+Data.png",
+      "https://storagevcl.blob.core.windows.net/images/Breach%20Data.png",
   },
   {
     id: "mobile_identity",
@@ -77,7 +77,7 @@ export const phoneServices = [
     fieldname: "mobileNumber",
     endpoint: "/mobile_identity",
     thumbnail:
-      "https://cybershastra-assets.s3.ap-south-1.amazonaws.com/Identity+Lookup.png",
+      "https://storagevcl.blob.core.windows.net/images/Identity%20Lookup.png",
   },
   {
     id: "lookup_imei",
@@ -88,7 +88,7 @@ export const phoneServices = [
     fieldname: "imeiNumber",
     endpoint: "/lookup_imei",
     thumbnail:
-      "https://cybershastra-assets.s3.ap-south-1.amazonaws.com/IMEI+Number.png",
+      "https://storagevcl.blob.core.windows.net/images/IMEI%20Number.png",
   },
 ];
 
@@ -102,7 +102,7 @@ export const vehicleServices = [
     fieldname: "rcNumber",
     endpoint: "/lookup_rc",
     thumbnail:
-      "https://cybershastra-assets.s3.ap-south-1.amazonaws.com/Vehicle+details+by+RC.png",
+      "https://storagevcl.blob.core.windows.net/images/Vehicle%20details%20by%20RC.png",
   },
   {
     id: "chassis_details",
@@ -113,7 +113,7 @@ export const vehicleServices = [
     fieldname: "rcNumber",
     endpoint: "/lookup_rc_to_chasis",
     thumbnail:
-      "https://cybershastra-assets.s3.ap-south-1.amazonaws.com/Vehicle+chassis+by+rc.png",
+      "https://storagevcl.blob.core.windows.net/images/Vehicle%20chassis%20by%20rc.png",
   },
   {
     id: "fastag_details",
@@ -124,7 +124,7 @@ export const vehicleServices = [
     fieldname: "fastagNumber",
     endpoint: "/lookup_fastag",
     thumbnail:
-      "https://cybershastra-assets.s3.ap-south-1.amazonaws.com/FasTag+details.png",
+      "https://storagevcl.blob.core.windows.net/images/FasTag%20details.png",
   },
   {
     id: "lookup_chassis",
@@ -135,7 +135,7 @@ export const vehicleServices = [
     fieldname: "chassisNumber",
     endpoint: "/lookup_chassis",
     thumbnail:
-      "https://cybershastra-assets.s3.ap-south-1.amazonaws.com/Chassis+details.png",
+      "https://storagevcl.blob.core.windows.net/images/Chassis%20details.png",
   },
 ];
 
@@ -149,7 +149,7 @@ export const personalServices = [
     fieldname: "panNumber",
     endpoint: "/lookup_pan_details",
     thumbnail:
-      "https://cybershastra-assets.s3.ap-south-1.amazonaws.com/PAN+Details.png",
+      "https://storagevcl.blob.core.windows.net/images/PAN%20Details.png",
   },
   {
     id: "lookup_gst_details",
@@ -160,7 +160,7 @@ export const personalServices = [
     fieldname: "gstNumber",
     endpoint: "/lookup_gst_details",
     thumbnail:
-      "https://cybershastra-assets.s3.ap-south-1.amazonaws.com/GST+Details.png",
+      "https://storagevcl.blob.core.windows.net/images/GST%20Details.png",
   },
   {
     id: "lookup_aadhar_to_pan",
@@ -171,7 +171,7 @@ export const personalServices = [
     fieldname: "aadharNumber",
     endpoint: "/lookup_aadhar_to_pan",
     thumbnail:
-      "https://cybershastra-assets.s3.ap-south-1.amazonaws.com/Aadhar+to+Pan.png",
+      "https://storagevcl.blob.core.windows.net/images/Aadhar%20to%20Pan.png",
   },
   {
     id: "lookup_tan_number",
@@ -182,7 +182,7 @@ export const personalServices = [
     fieldname: "tanNumber",
     endpoint: "/lookup_tan_number",
     thumbnail:
-      "https://cybershastra-assets.s3.ap-south-1.amazonaws.com/TAN+Number+details.png",
+      "https://storagevcl.blob.core.windows.net/images/TAN%20Number%20details.png",
   },
 ];
 
